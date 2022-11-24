@@ -82,7 +82,7 @@ function init() {
   ])
   .then((answers) => {
     const template = (generateMarkdown(answers));
-    const filename = `${response.filename}.md`
+    const filename = `${answers.filename}.md`
     writeToFile(fileName, template);
   });
 }
