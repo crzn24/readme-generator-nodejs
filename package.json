@@ -1,13 +1,13 @@
 {
-  "name": "static-site",
+  "name": "readme-generator-nodejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app that uses the command line to generate a README.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "crzn24",
+  "license": "MIT",
   "dependencies": {
     "inquirer": "8.2.4"
   }
