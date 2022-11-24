@@ -3,6 +3,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -48,7 +49,6 @@ const questions = [
     },
 
     ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
     // Description, Installation, Usage, Contributing, and Tests. 
     // License.  
     // questions section: github username, email address, 
@@ -56,7 +56,10 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) =>
+    err ? console.error(err) : console.log("Here is your README!"));
+}
 
 // TODO: Create a function to initialize app
 function init() {
