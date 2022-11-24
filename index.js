@@ -6,7 +6,14 @@ const generateMarkdown = require("./utils/generateMarkdown");
 
 // TODO: Create an array of questions for user input
 const questions = [
-    
+    "What is the name of your project?",
+    "Enter your project description:",
+    "Enter your Installation Instructions:",
+    "Enter your Usage Information:",
+    "Enter your Contribution Guidelines:",
+    "Which license would you like to use?",
+    "What is your GitHub username?",
+    "What is your email address?",
 
     ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
     // Description, Installation, Usage, Contributing, and Tests. 
@@ -27,43 +34,43 @@ function init() {
     {
         type: "input",
         name: "title",
-        message: "What is the name of your project?",
+        message: questions[0],
     },
     {
         type: "input",
         name: "description",
-        message: "Enter your project description:",
+        message: questions[1],
     },
     {
         type: "input",
         name: "installation",
-        message: "Enter your Installation Instructions:",
+        message: questions[2],
     },
     {
         type: "input",
         name: "usage",
-        message: "Enter your Usage Information:",
+        message: questions[3],
     },
     {
         type: "input",
         name: "contribution",
-        message: "Enter your Contribution Guidelines:",
+        message: questions[4],
     },
     {
         type: "list",
         name: "license",
-        message: "Which license would you like to use?",
+        message: questions[5],
         choices: ["MIT", "Apache 2.0", "GNU General Public License v3.0", "ISC License", "BSD-2", "BSD-3", "None"],
     },
     {
         type: "input",
         name: "username",
-        message: "What is your GitHub username?",
+        message: questions[6],
     },
     {
         type: "input",
         name: "email",
-        message: "What is your email address?",
+        message: questions[7],
     },
 
   ]);
