@@ -4,7 +4,7 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
 
-// TODO: Create an array of questions for user input
+// Array of questions for user input
 const questions = [
     "What is the name of your project?",
     "Enter your project description:",
@@ -14,15 +14,16 @@ const questions = [
     "Which license would you like to use?",
     "What is your GitHub username?",
     "What is your email address?",
+    "What do you want to name your README file?"
 
-    ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-    // Description, Installation, Usage, Contributing, and Tests. 
-    // License.  
-    // questions section: github username, email address, 
+        ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+        // Description, Installation, Usage, Contributing, and Tests. 
+        // License.  
+        // questions section: github username, email address, 
     
 ];
 
-// TODO: Create a function to write README file
+// Function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(fileName, data, (err) =>
     err ? console.error(err) : console.log("Here is your README!"));
@@ -72,8 +73,18 @@ function init() {
         name: "email",
         message: questions[7],
     },
+    {
+        type: "input",
+        name: "filename",
+        message: questions[8],
+    },
 
-  ]);
+  ])
+  .then((answers) => {
+    const template = (generateMarkdown(answers));
+    const filename = `${response.filename}.md`
+    writeToFile(fileName, template);
+  });
 }
 
 // Function call to initialize app
