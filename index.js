@@ -29,7 +29,7 @@ function writeToFile(fileName, data) {
     err ? console.error(err) : console.log("Here is your README!"));
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
   inquirer.prompt([
     {
