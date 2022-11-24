@@ -1,4 +1,5 @@
 // TODO: Include packages needed for this application
+// Dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
@@ -9,7 +10,16 @@ const questions = [];
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+  inquirer.prompt([
+    {
+      type: "input",
+      message: "What is your user name?",
+      name: "username",
+    },
+
+  ]);
+}
 
 // Function call to initialize app
 init();
