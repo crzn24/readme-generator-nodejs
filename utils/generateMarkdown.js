@@ -66,7 +66,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "None") {
-     return `This project created by ${username}, uses: [${license}](${renderLicenseLink(license)})`
+     return `This project was created by ${username} and licensed under: [${license}](${renderLicenseLink(license)})`
   }
   else {
     return ``
@@ -101,7 +101,7 @@ function generateMarkdown(data) {
 
   ## License
 
-  ${data.}
+  ${renderLicenseSection(data.license, data.username)}
 
   ---
 
