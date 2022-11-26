@@ -111,6 +111,10 @@ function generateMarkdown(data) {
   
   ${data.contribution}
 
+  ## Tests
+
+  ${data.tests}
+  
   ## Questions
 
   Find me on GitHub: https://github.com/${data.username}
@@ -118,9 +122,7 @@ function generateMarkdown(data) {
   For any additional questions: ${data.email}
   
 
-  ## Tests
-
-  ${data.tests}
+  
 
 `;
 }
