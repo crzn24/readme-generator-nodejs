@@ -93,9 +93,10 @@ function generateMarkdown(data) {
 
 
   ---
-  ## Features
 
   ## How to Contribute
+  Contact me: ${data.email}
+  Find me on GitHub: https://github.com/${data.username}
 
   ## Tests
 
