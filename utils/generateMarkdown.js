@@ -84,7 +84,7 @@ function generateMarkdown(data) {
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [How to Contribute](#how to contribute)
+  - [How to Contribute](#contribute)
   - [Tests](#tests)
 
 
@@ -105,8 +105,8 @@ function generateMarkdown(data) {
 
   ---
 
-  ## How to Contribute
-
+  ## Contribute
+  
   ${data.contribution}
 
   ## Questions
