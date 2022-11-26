@@ -109,8 +109,12 @@ function generateMarkdown(data) {
 
   ${data.contribution}
 
-  Contact me: ${data.email}
+  ## Questions
+
   Find me on GitHub: https://github.com/${data.username}
+  
+  For any additional questions: ${data.email}
+  
 
   ## Tests
 
