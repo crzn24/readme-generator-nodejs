@@ -20,8 +20,8 @@ This application generates a professional README when used in the Command Line. 
 ![Screenshots of README example]()
 
 ## Credits
-* (Markdown License Badges)[https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba]
-* (Professional README Guide)[https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide]
+* [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
+* [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 
 ## License
