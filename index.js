@@ -1,4 +1,4 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
 // Dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
@@ -86,9 +86,9 @@ function init() {
     },
 
   ])
-  .then((answers) => {
-    const template = (generateMarkdown(answers));
-    const filename = `${answers.filename}.md`
+  .then((response) => {
+    const template = (generateMarkdown(response));
+    const filename = `${response.filename}.md`
     writeToFile(filename, template);
   });
 }
