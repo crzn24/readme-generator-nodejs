@@ -11,6 +11,7 @@ const questions = [
     "Enter your Installation Instructions:",
     "Enter your Usage Information:",
     "Enter your Contribution Guidelines:",
+    "Enter your Testing Instructions:",
     "Which license would you like to use?",
     "What is your GitHub username?",
     "What is your email address?",
@@ -58,25 +59,30 @@ function init() {
         message: questions[4],
     },
     {
+        type: "input",
+        name: "tests",
+        message: questions[5],
+    },
+    {
         type: "list",
         name: "license",
-        message: questions[5],
+        message: questions[6],
         choices: ["MIT", "Apache 2.0", "GNU General Public License v3.0", "ISC License", "BSD-2", "BSD-3", "None"],
     },
     {
         type: "input",
         name: "username",
-        message: questions[6],
-    },
-    {
-        type: "input",
-        name: "email",
         message: questions[7],
     },
     {
         type: "input",
-        name: "filename",
+        name: "email",
         message: questions[8],
+    },
+    {
+        type: "input",
+        name: "filename",
+        message: questions[9],
     },
 
   ])
