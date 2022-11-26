@@ -1,4 +1,4 @@
-// Include packages needed for this application
+// Packages needed for this application
 // Dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
@@ -17,10 +17,10 @@ const questions = [
     "What is your email address?",
     "What do you want to name your README file?"
 
-        ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-        // Description, Installation, Usage, Contributing, and Tests. 
-        // License.  
-        // questions section: github username, email address, 
+    ////////// Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
+    // Description, Installation, Usage, Contributing, and Tests. 
+    // License.  
+    // questions section: github username, email address, 
     
 ];
 
