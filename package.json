@@ -10,5 +10,13 @@
   "license": "MIT",
   "dependencies": {
     "inquirer": "8.2.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crzn24/readme-generator-nodejs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/crzn24/readme-generator-nodejs/issues"
+  },
+  "homepage": "https://github.com/crzn24/readme-generator-nodejs#readme"
 }
