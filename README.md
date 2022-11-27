@@ -13,7 +13,7 @@ This application generates a professional README when used in the Command Line. 
 
 [Link to Repository](https://github.com/crzn24/readme-generator-nodejs.git)
 
-[Link to Video Demo](https://drive.google.com/drive/folders/1wKLPPmvavd6O636O0_iBtGefuXX5bskM?usp=sharing)
+[Walkthrough Video Demo](https://drive.google.com/drive/folders/1wKLPPmvavd6O636O0_iBtGefuXX5bskM?usp=sharing)
 
 ![Screenshots of vs code terminal](./assets/images/vscode-terminal.png)
 ![Screenshots of vs code README](./assets/images/vscode-readme.png)
