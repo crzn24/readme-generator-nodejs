@@ -17,7 +17,7 @@ This application generates a professional README when used in the Command Line. 
 
 ![Screenshots of vs code terminal](./assets/images/vscode-terminal.png)
 ![Screenshots of vs code README](./assets/images/vscode-readme.png)
-![Screenshots of README example]()
+![Screenshots of README example](./assets/images/example-readme.png)
 
 ## Credits
 * [Markdown License Badges](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba)
